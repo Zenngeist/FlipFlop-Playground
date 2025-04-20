@@ -19,8 +19,8 @@ function App() {
         <header className="flex justify-between items-center mb-8">
           <div>
           <div className="flex items-baseline space-x-2">
-          <h1 className="text-3xl font-bold text-blue-600 dark:text-dlav">FlipFlop Playground</h1>
-          <h2 className="text-lg font-asswoop text-blue-600 dark:text-dlav">by Zengeist</h2>
+          <h1 className="text-3xl font-bold text-dlav dark:text-dlav">FlipFlop Playground</h1>
+          <h2 className="text-lg font-asswoop text-dlav dark:text-dlav">by Zengeist</h2>
           </div>
 <p className="text-gray-600 dark:text-lav">
   Interactive learning tool for digital logic flip-flops
@@ -31,7 +31,7 @@ function App() {
               href="https://en.wikipedia.org/wiki/Flip-flop_(electronics)" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center text-blue-600 dark:text-dlav hover:underline"
+              className="flex items-center text-dlav dark:text-dlav hover:underline"
             >
               <BookOpen size={20} className="mr-1" />
               <span>Learn More</span>
@@ -72,7 +72,7 @@ function App() {
         </FlipFlopProvider>
         
         {/* Footer */}
-        <footer className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700 text-center text-gray-600 dark:text-lav">
+        <footer className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700 text-center text-lav dark:text-lav">
           <p>FlipFlop Playground © 2025 | Digital ELectronics Project</p>
         </footer>
       </div>
