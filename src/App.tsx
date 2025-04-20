@@ -37,7 +37,7 @@ function App() {
               <span>Learn More</span>
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/Zenngeist/FlipFlop-Playground" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center text-gray-700 dark:text-gray-300 hover:underline"
