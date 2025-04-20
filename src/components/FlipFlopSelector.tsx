@@ -47,7 +47,7 @@ const FlipFlopSelector: React.FC = () => {
         ))}
       </div>
       
-      <div className="mt-4 p-3 bg-gray-100 dark:bg-dg rounded-md text-sm text-gray-700 dark:text-gray-300">
+      <div className="mt-4 p-3 bg-gray-100 dark:bg-dg rounded-2xl text-sm text-gray-700 dark:text-gray-300">
         <p>{getFlipFlopDescription(state.type, state.variant)}</p>
       </div>
     </div>
